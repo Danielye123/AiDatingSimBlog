@@ -1,5 +1,5 @@
-import Image from "next/image"
-import Link from "next/link"
+import Image from "next/image";
+import Link from "next/link";
 
 export default function AboutPage() {
   return (
@@ -18,12 +18,21 @@ export default function AboutPage() {
         <div className="p-6 md:p-8">
           <div className="flex flex-col md:flex-row gap-6 items-center md:items-start mb-8">
             <div className="relative w-32 h-32 rounded-full overflow-hidden border-4 border-[#F5C1CC] shadow-md flex-shrink-0">
-              <Image src="/placeholder.svg?height=128&width=128" alt="Author Avatar" fill className="object-cover" />
+              <Image
+                src="/placeholder.svg?height=128&width=128"
+                alt="Author Avatar"
+                fill
+                className="object-cover"
+              />
             </div>
 
             <div className="text-center md:text-left">
-              <h1 className="text-3xl md:text-4xl font-bold text-[#2B2D42] mb-2">Sakura Anime Blog</h1>
-              <p className="text-lg text-[#2B2D42]/80 italic">Exploring the world of anime one post at a time</p>
+              <h1 className="text-3xl md:text-4xl font-bold text-[#2B2D42] mb-2">
+                Sakura Anime Blog
+              </h1>
+              <p className="text-lg text-[#2B2D42]/80 italic">
+                Exploring the world of anime one post at a time
+              </p>
               <div className="flex gap-4 mt-4 justify-center md:justify-start">
                 <a
                   href="https://twitter.com"
@@ -69,7 +78,10 @@ export default function AboutPage() {
                     <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
                   </svg>
                 </a>
-                <a href="mailto:hello@animeblog.com" className="text-[#2B2D42] hover:text-[#F5C1CC] transition-colors">
+                <a
+                  href="mailto:hello@animeblog.com"
+                  className="text-[#2B2D42] hover:text-[#F5C1CC] transition-colors"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -91,39 +103,73 @@ export default function AboutPage() {
           </div>
 
           <div className="space-y-6 text-[#1E1E1E]">
-            <h2 className="text-2xl font-bold text-[#2B2D42] border-b border-[#F5C1CC]/30 pb-2">About Me</h2>
+            <h2 className="text-2xl font-bold text-[#2B2D42] border-b border-[#F5C1CC]/30 pb-2">
+              About this project
+            </h2>
+
+            <span>Why I’m Starting This Blog: Organizing My Thoughts & Building My AI Dating Sim</span>
+            
             <p>
-              Hello! I'm Yuki, a passionate anime enthusiast and the creator of Sakura Anime Blog. I started this blog
-              in 2020 as a way to share my thoughts and analyses on various anime series, manga adaptations, and the
-              broader Japanese animation industry.
+              Hello! I&apos;m Yuki, a passionate anime enthusiast and the creator of
+              Sakura Anime Blog. I started this blog in 2020 as a way to share
+              my thoughts and analyses on various anime series, manga
+              adaptations, and the broader Japanese animation industry.
             </p>
 
             <p>
-              With over 10 years of experience watching anime (yes, I've been hooked since I was a kid!), I've developed
-              a deep appreciation for the art form and its cultural significance. My favorite genres include slice of
-              life, psychological thrillers, and classic shonen, but I'm always open to exploring new styles and
-              stories.
+              For the past few months, I’ve been working on a project that’s
+              both exciting and a little ambitious—an AI-powered dating
+              simulator. It’s a passion project that blends my interests in web
+              development, AI integration, and game design.
             </p>
 
-            <h2 className="text-2xl font-bold text-[#2B2D42] border-b border-[#F5C1CC]/30 pb-2 pt-4">Blog Mission</h2>
             <p>
-              Sakura Anime Blog aims to provide thoughtful, in-depth analyses of anime series both new and old. I
-              believe that anime is not just entertainment but a rich art form worthy of serious critical attention.
-              Through my writing, I hope to:
+              But as I’ve gotten deeper into building it, I realized something:
+              I keep revisiting the same ideas, asking myself (and even ChatGPT)
+              the same questions over and over.
+            </p>
+
+            <p>
+              I needed a way to organize my thoughts and solidify my
+              understanding. That’s why I’m starting this blog.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#2B2D42] border-b border-[#F5C1CC]/30 pb-2 pt-4">
+              Blog Mission
+            </h2>
+            <p>
+              Sakura Anime Blog aims to provide thoughtful, in-depth analyses of
+              anime series both new and old. I believe that anime is not just
+              entertainment but a rich art form worthy of serious critical
+              attention. Through my writing, I hope to:
             </p>
 
             <ul className="list-disc pl-6 space-y-2">
-              <li>Highlight underappreciated anime gems that deserve more attention</li>
-              <li>Analyze themes, character development, and storytelling techniques in popular series</li>
+              <li>
+                Highlight underappreciated anime gems that deserve more
+                attention
+              </li>
+              <li>
+                Analyze themes, character development, and storytelling
+                techniques in popular series
+              </li>
               <li>Connect anime to broader cultural and artistic contexts</li>
-              <li>Create a welcoming community for anime fans of all experience levels</li>
+              <li>
+                Create a welcoming community for anime fans of all experience
+                levels
+              </li>
             </ul>
 
-            <h2 className="text-2xl font-bold text-[#2B2D42] border-b border-[#F5C1CC]/30 pb-2 pt-4">Contact</h2>
+            <h2 className="text-2xl font-bold text-[#2B2D42] border-b border-[#F5C1CC]/30 pb-2 pt-4">
+              Contact
+            </h2>
             <p>
-              Have a suggestion for a series I should review? Want to collaborate or just chat about anime? Feel free to
-              reach out via{" "}
-              <a href="mailto:hello@animeblog.com" className="text-[#F5C1CC] hover:text-[#2B2D42] transition-colors">
+              Have a suggestion for a series I should review? Want to
+              collaborate or just chat about anime? Feel free to reach out via{" "}
+              <a
+                href="mailto:hello@animeblog.com"
+                className="text-[#F5C1CC] hover:text-[#2B2D42] transition-colors"
+              >
                 email
               </a>{" "}
               or connect with me on social media.
@@ -141,5 +187,5 @@ export default function AboutPage() {
         </div>
       </div>
     </main>
-  )
+  );
 }

@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image"
 import Link from "next/link"
 import { notFound } from "next/navigation"
@@ -22,7 +23,7 @@ export default function PostPage({ params }: { params: { slug: string } }) {
     .slice(0, 3)
 
   return (
-    <main className="container mx-auto px-4 py-8">
+    <main className="mx-auto px-4 py-8">
       <article className="max-w-4xl mx-auto">
         {/* Hero Section */}
         <div className="mb-8">

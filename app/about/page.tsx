@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export default function AboutPage() {
   return (
-    <main className="container mx-auto px-4 py-8 max-w-4xl">
+    <main className="mx-auto px-4 py-8 max-w-4xl">
       <div className="bg-white rounded-xl border border-[#F5C1CC]/30 overflow-hidden shadow-md">
         <div className="relative h-64 md:h-80 w-full">
           <Image

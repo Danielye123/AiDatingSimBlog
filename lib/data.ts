@@ -7,7 +7,7 @@ export const blogPosts: Post[] = [
     slug: "my-hero-academia-season-6-review",
     summary:
       "The latest season of My Hero Academia brings intense battles and character development as our heroes face their greatest challenge yet against the Paranormal Liberation Front.",
-    coverImage: "/placeholder.svg?height=400&width=600",
+    coverImage: "/cardImages/image1.jpg",
     date: "May 1, 2023",
     tags: ["Shonen", "Action"],
   },
@@ -17,7 +17,7 @@ export const blogPosts: Post[] = [
     slug: "top-10-slice-of-life-anime",
     summary:
       "Looking for something relaxing? These slice of life anime series offer heartwarming stories and beautiful animation that will leave you feeling refreshed.",
-    coverImage: "/placeholder.svg?height=400&width=600",
+    coverImage: "/cardImages/image2.avif",
     date: "April 15, 2023",
     tags: ["Slice of Life", "List"],
   },
@@ -27,7 +27,7 @@ export const blogPosts: Post[] = [
     slug: "evolution-of-studio-ghibli-animation",
     summary:
       "From Nausicaä to Earwig and the Witch, we explore how Studio Ghibli's animation techniques and storytelling have evolved over the decades.",
-    coverImage: "/placeholder.svg?height=400&width=600",
+    coverImage: "/cardImages/image3.jpg",
     date: "March 28, 2023",
     tags: ["Studio Ghibli", "Analysis"],
   },
@@ -37,7 +37,7 @@ export const blogPosts: Post[] = [
     slug: "chainsaw-man-manga-vs-anime",
     summary:
       "How does MAPPA's adaptation of Chainsaw Man compare to Tatsuki Fujimoto's original manga? We break down the differences and similarities.",
-    coverImage: "/placeholder.svg?height=400&width=600",
+    coverImage: "/cardImages/image4.jpg",
     date: "March 10, 2023",
     tags: ["Manga", "Adaptation"],
   },
@@ -47,7 +47,7 @@ export const blogPosts: Post[] = [
     slug: "rise-of-isekai-genre",
     summary:
       "The isekai genre has dominated anime for the past decade. We examine why these 'transported to another world' stories resonate with so many viewers.",
-    coverImage: "/placeholder.svg?height=400&width=600",
+    coverImage: "/cardImages/image1.jpg",
     date: "February 22, 2023",
     tags: ["Isekai", "Analysis"],
   },
@@ -57,7 +57,7 @@ export const blogPosts: Post[] = [
     slug: "anime-soundtracks-defined-generation",
     summary:
       "From Cowboy Bebop to Attack on Titan, these iconic anime soundtracks have left a lasting impact on fans and influenced music beyond the anime industry.",
-    coverImage: "/placeholder.svg?height=400&width=600",
+    coverImage: "/cardImages/image3.jpg",
     date: "February 5, 2023",
     tags: ["Music", "Classics"],
   },

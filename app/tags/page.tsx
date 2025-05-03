@@ -21,7 +21,7 @@ export default function TagsPage() {
   const sortedTags = Object.keys(tagCounts).sort()
 
   return (
-    <main className="container mx-auto px-4 py-8">
+    <main className="mx-auto px-4 py-8">
       <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 text-[#2B2D42]">Browse by Tags</h1>
 
       <div className="bg-white rounded-xl border border-[#F5C1CC]/30 overflow-hidden shadow-md p-6 md:p-8 mb-8">
